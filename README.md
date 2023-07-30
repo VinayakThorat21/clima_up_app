@@ -1,16 +1,16 @@
 # clima_up
 
-A new Flutter project.
+App made with Flutter to fetch and load weather data of your current or requested location.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+There is one you need to keep in mind __before running the app__...
 
-A few resources to get you started if this is your first Flutter project:
+In lib/utilities/constants.dart:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- The constant named __apiKey__ requires and actual API key to run the app
+- Goto __https://openweathermap.org/api__ and scroll down to section called __Current & Forecast weather data collection__, you'll find various API services that help to fetch different kinds of data
+- The one we have leveraged in this project is __Current Weather Data__
+- Generate your API key from this website and paste it as a string-value to constant apiKey
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### You're ready to go...!
